@@ -1,0 +1,39 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "A Hugo website"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "GitHub"
+    url = "https://github.com/christlc"
+[[menu.main]]
+    name = "LinkedIn"
+    url = "https://hk.linkedin.com/in/christlc"
+
+[params]
+    description = "Chris Choy's website for notes and thoughts."
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.11.0"
+    highlightjsCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml", "bash", "dockerfile"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdn.bootcss.com"
+    MathJaxVersion = "2.7.1"
+
+    [params.logo]
+    url = "logoch.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
