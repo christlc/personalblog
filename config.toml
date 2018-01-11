@@ -19,7 +19,7 @@ title = "Chris Choy's blog"
 theme = "hugo-tranquilpeak-theme"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #disqusShortname = "hugo-tranquilpeak-theme"
-# googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-63076522-1"
 paginate = 7
 canonifyurls = true
 
